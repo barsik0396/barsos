@@ -1,0 +1,14 @@
+?? TestApp Uninstaller for BarsOS
+
+[DOWNLOADS]
+GITPRO2 = $uninst/GITPRO2
+RESTORE = $uninst/RESTORE
+GITDOWN = $uninst/GITDOWN
+
+[VERSIONS]
+GITPRO2 = NEWEST
+RESTORE = 0.1.9
+GITDOWN = 0.2.6
+
+[SCRIPT]
+...
