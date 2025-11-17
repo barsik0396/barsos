@@ -1,0 +1,15 @@
+GITHUB_FILE_VIEWER = $app/downloads/GITHUB_FILE_VIEWER
+GITHUB_OTHER_FILE_DOWNLOADER = $app/downloads/GITHUB_OTHER_FILE_DOWNLOADER
+LIBS = $app/downloads/LIBS
+lib.GITPRO = $app/downloads/lib.GITPRO
+lib.DOWNURL = $app/downloads/lib.DOWNLOADURL
+lib.CREATECAT = $app/downloads/lib.CREATEURL
+lib.MCLAUNCH = $app/downloads/py/lib.MCLAUNCH
+MCLAUNCH = $app/downloads/py/MCLAUNCH
+PYTHON = $app/downloads/py
+$file//github://barsik0396/barsos/barsik-builds/test/download_run.bars
+ADDONS = $app/downloads/ADDONS
+lib.ADDONS = $app/downloads/lib.ADDONS
+TEST.BUILDAPP = $app/downloads/TEST/BUILDAPP
+STORE = $app/downloads/STORE
+STORElib = $app/downloads/lib.STORE
