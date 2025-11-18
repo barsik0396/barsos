@@ -3,12 +3,23 @@
 [DOWNLOADS]
 GITPRO2 = $uninst/GITPRO2
 RESTORE = $uninst/RESTORE
-GITDOWN = $uninst/GITDOWN
+?? GITDOWN = $uninst/GITDOWN (removed)
+XCAT = $uninst/XCAT
 
 [VERSIONS]
 GITPRO2 = NEWEST
-RESTORE = 0.1.9
+RESTORE = 0.0
 GITDOWN = 0.2.6
+XCAT = ALPHA
 
 [SCRIPT]
-...
+INSTALL "github://addons/GITPRO2/newest.bars" "$uninst/GITPRO.bars" == GITPRO2
+INSTALL "github://addons/RESTORE/00.xcat" "$uninst/00.xcat" == RESTORE
+INSTALL "github://addons/XCAT.bars" "$uninst/XCAT.bars"
+XCAT BUILD-bars 00.xcat 00.bars
+XCAT BUILD "$uninst/GITPRO.bars" GITPRO.barsapp
+XCAT BUILD "$uninst/00.bars" 00.barsapp
+XCAT RELOAD-APPS
+XCAT STOP
+REMOVE $uninst
+END
